@@ -41,7 +41,7 @@ public class WordCount {
  public static void main(String[] args) throws Exception {
     Configuration conf = new Configuration();
         
-        Job job = new Job(conf, "wordcount");
+    Job job = new Job(conf, "wordcount");
     
     job.setOutputKeyClass(Text.class);
     job.setOutputValueClass(IntWritable.class);
