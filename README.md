@@ -38,7 +38,7 @@ ssh 你的帳號@140.120.16.94 -p 16222
 ```
 nano .bashrc
 export HADOOP_HOME=/usr/local/hadoop
-export HADOOP_HOME=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
 ```
 ### 登出後重新登入使設定檔生效 or 使用 source 指令
 ```
