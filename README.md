@@ -49,7 +49,7 @@ source .bashrc
 
 * 瀏覽HDFS內容
 ``` 
-hadoop fs -l 
+hadoop fs -ls 
 ```
 
 * 創建目錄夾於HDFS中
