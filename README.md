@@ -36,6 +36,7 @@ ssh 你的帳號@140.120.16.94 -p 16222
 ```
 ### 登入後設定環境變數檔 (.bashrc)
 ```
+nano .bashrc
 export HADOOP_HOME=/usr/local/hadoop
 export HADOOP_HOME=/usr/local/hadoop
 ```
