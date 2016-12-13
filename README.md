@@ -44,7 +44,7 @@ export HADOOP_HOME=/usr/local/hadoop
 source .bashrc
 ```
 
-# HDFS (Hadoop Distributed File System 基本操作)
+# HDFS (Hadoop Distributed File System 基本操作):
 
 1. 瀏覽HDFS內容
 ``` 
