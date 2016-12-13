@@ -46,39 +46,44 @@ source .bashrc
 
 # HDFS (Hadoop Distributed File System 基本操作):
 
-1. 瀏覽HDFS內容
+* 瀏覽HDFS內容
 ``` 
 hadoop fs -l 
 ```
 
-2. 創建目錄夾於HDFS中
+* 創建目錄夾於HDFS中
 ```
 hadoop fs -mkdir 目錄夾名稱
 ```
 
-3. 存放資料於HDFS中
+* 存放資料於HDFS中
 ```
 hadoop fs -put local_file_name hdfs_file_name
 ```
 
-4. 從HDFS刪除資料
+* 從HDFS刪除資料
 ```
 hadoop fs -rmr hdfs_file_name
 ```
 
-5. 查看HDFS檔案內容
+* 查看HDFS檔案內容
 ```
 hadoop fs -cat file_name
 ```
 
-6. 自HDFS中，取回檔案至本地端
+* 自HDFS中，取回檔案至本地端
 ```
 hadoop fs -get hdfs_file_name local_file_name
 ```
 
+# Hadoop 程式執行
+程式執行指令如下：
 
+hadoop jar jar檔 類別名稱 欲處理的檔案 計算完後結果存放之處
+```
+hadoop jar example.jar wordcount hdfs_files result_stored_folder
 
-
+```
 
 
 
