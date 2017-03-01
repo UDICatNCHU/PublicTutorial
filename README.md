@@ -8,7 +8,7 @@ ssh hduser@140.120.16.94 -p 16222
 
 Account: _hduser_
 
-Password: _hadoop_
+Password: 
 
 ## 關於帳號的創建
 
