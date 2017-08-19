@@ -1,0 +1,10 @@
+nltk
+jieba
+sklearn
+numpy
+scipy
+requests
+bs4
+simplejson
+pyprind
+matplotlib
