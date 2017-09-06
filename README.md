@@ -5,6 +5,7 @@
 	* [爬蟲workshop.ipynb](Crawler/爬蟲workshop.ipynb)
 * Jieba
 	* [jieba.ipynb](Crawler/jieba.ipynb)
+	* [進階的jieba原理](Crawler/jieba_theory.ipynb)
 * 貝式分類器
 	* [貝式分類器.ipynb](Crawler/貝式分類器.ipynb)
 * word2vec + keras
